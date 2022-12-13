@@ -1,0 +1,30 @@
+[
+    {
+      "ParameterKey": "ClusterName", 
+      "ParameterValue": "bterry-ocp-install" 
+    },
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "bterry-ocp-install-q4pjg" 
+    },
+    {
+      "ParameterKey": "HostedZoneId", 
+      "ParameterValue": "Z08144833G0F3ZEHPCQXD" 
+    },
+    {
+      "ParameterKey": "HostedZoneName", 
+      "ParameterValue": "am01.aws.eyebeemdemos.com" 
+    },
+    {
+      "ParameterKey": "PublicSubnets", 
+      "ParameterValue": "subnet-0202b869e59f86a67" 
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "subnet-0058cd251c67ec59f" 
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-0ae9dcf968c8ebfcc" 
+    }
+  ]

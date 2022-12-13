@@ -1,0 +1,18 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "bterry-ocp-install-q4pjg" 
+    },
+    {
+      "ParameterKey": "VpcCidr", 
+      "ParameterValue": "10.0.0.0/16" 
+    },
+    {
+      "ParameterKey": "PrivateSubnets", 
+      "ParameterValue": "subnet-0058cd251c67ec59f" 
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-0ae9dcf968c8ebfcc" 
+    }
+  ]

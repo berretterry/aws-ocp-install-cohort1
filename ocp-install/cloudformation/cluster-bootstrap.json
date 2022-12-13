@@ -1,0 +1,51 @@
+[
+    {
+      "ParameterKey": "InfrastructureName", 
+      "ParameterValue": "bterry-ocp-install-q4pjg" 
+    },
+    {
+      "ParameterKey": "RhcosAmi", 
+      "ParameterValue": "ami-026e5701f495c94a2" 
+    },
+    {
+      "ParameterKey": "AllowedBootstrapSshCidr", 
+      "ParameterValue": "0.0.0.0/0" 
+    },
+    {
+      "ParameterKey": "PublicSubnet", 
+      "ParameterValue": "subnet-0202b869e59f86a67" 
+    },
+    {
+      "ParameterKey": "MasterSecurityGroupId", 
+      "ParameterValue": "sg-0b4f10f31a6946c6a" 
+    },
+    {
+      "ParameterKey": "VpcId", 
+      "ParameterValue": "vpc-0ae9dcf968c8ebfcc" 
+    },
+    {
+      "ParameterKey": "BootstrapIgnitionLocation", 
+      "ParameterValue": "s3://bterry-ocp-install-infra/bootstrap.ign" 
+    },
+    {
+      "ParameterKey": "AutoRegisterELB", 
+      "ParameterValue": "yes" 
+    },
+    {
+      "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+      "ParameterValue": "arn:aws:lambda:us-east-2:407635659152:function:cluster-lb-RegisterNlbIpTargets-SZTrEAlCq5bx" 
+    },
+    {
+      "ParameterKey": "ExternalApiTargetGroupArn", 
+      "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:407635659152:targetgroup/clust-Exter-S9983V8NW7M6/861889bed14ad3d9" 
+    },
+    {
+      "ParameterKey": "InternalApiTargetGroupArn", 
+      "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:407635659152:targetgroup/clust-Inter-1KC3M4V8ZFOPV/6371b029d13667ff" 
+    },
+    {
+      "ParameterKey": "InternalServiceTargetGroupArn", 
+      "ParameterValue": "arn:aws:elasticloadbalancing:us-east-2:407635659152:targetgroup/clust-Inter-4QZ762X2UTZC/e82b942ba5722e81" 
+    }
+  ]
+  

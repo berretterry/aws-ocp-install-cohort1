@@ -1,0 +1,1 @@
+{"clusterName":"bterry-ocp-install","clusterID":"b0b9fa43-7a6f-4d24-ad67-cdf16032e58c","infraID":"bterry-ocp-install-q4pjg","aws":{"region":"us-east-2","identifier":[{"kubernetes.io/cluster/bterry-ocp-install-q4pjg":"owned"},{"openshiftClusterID":"b0b9fa43-7a6f-4d24-ad67-cdf16032e58c"}],"clusterDomain":"bterry-ocp-install.am01.aws.eyebeemdemos.com"}}
