@@ -142,7 +142,7 @@ Resources:
       BlockDeviceMappings:
       - DeviceName: /dev/xvda
         Ebs:
-          VolumeSize: "120"
+          VolumeSize: "256"
           VolumeType: "gp2"
       IamInstanceProfile: !Ref MasterInstanceProfileName
       InstanceType: !Ref MasterInstanceType
@@ -194,7 +194,7 @@ Resources:
       BlockDeviceMappings:
       - DeviceName: /dev/xvda
         Ebs:
-          VolumeSize: "120"
+          VolumeSize: "256"
           VolumeType: "gp2"
       IamInstanceProfile: !Ref MasterInstanceProfileName
       InstanceType: !Ref MasterInstanceType
@@ -246,7 +246,7 @@ Resources:
       BlockDeviceMappings:
       - DeviceName: /dev/xvda
         Ebs:
-          VolumeSize: "120"
+          VolumeSize: "256"
           VolumeType: "gp2"
       IamInstanceProfile: !Ref MasterInstanceProfileName
       InstanceType: !Ref MasterInstanceType

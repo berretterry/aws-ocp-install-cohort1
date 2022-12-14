@@ -33,3 +33,5 @@ override.tf.json
 eks_bastion_ssh.pem
 
 notes
+
+*.pem
